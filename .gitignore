@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Database
+*.db
+*.db-journal
+
+# Agent configuration (contains private keys!)
+.agent-config.json
+
+# Claude Desktop Config (user-specific, with hardcoded paths)
+claude_desktop_config.json
+CLAUDE_CONFIG.json
+
+# Claude IDE
+.claude/
+
+# User-specific scripts
+node-wrapper.sh
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

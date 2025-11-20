@@ -1,0 +1,20 @@
+{
+  "name": "agentic-commerce-backend",
+  "version": "1.0.0",
+  "description": "Express backend for Agentic Commerce with TAP authentication",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": ["tap", "agentic-commerce", "e-commerce", "rfc9421"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sql.js": "^1.10.3",
+    "@noble/ed25519": "^2.0.0",
+    "cors": "^2.8.5"
+  }
+}
