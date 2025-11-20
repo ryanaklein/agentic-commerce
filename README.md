@@ -2,7 +2,7 @@
 
 A simplified implementation of Visa's Trusted Agent Protocol (TAP) for AI agent authentication in e-commerce. Shop through Claude Desktop with cryptographic proof of agent identity.
 
-**[What is TAP?](tap-improvements/README.md)** - Learn about the protocol concepts
+**[What is TAP?](tap/README.md)** - Learn about the protocol concepts
 
 ## Table of Contents
 
@@ -362,7 +362,7 @@ agentic-commerce/
 │   ├── signature.js       # RFC 9421 signature generation
 │   ├── package.json
 │   └── README.md          # MCP server documentation
-├── tap-improvements/
+├── tap/
 │   └── README.md          # TAP protocol introduction
 ├── .gitignore
 └── README.md              # This file
@@ -406,7 +406,7 @@ agentic-commerce/
 
 This implementation uses the **Trusted Agent Protocol (TAP)** to authenticate AI agents cryptographically.
 
-**For full TAP concepts and protocol details:** [Read the TAP Introduction](tap-improvements/README.md)
+**For full TAP concepts and protocol details:** [Read the TAP Introduction](tap/README.md)
 
 ### Quick Overview
 
